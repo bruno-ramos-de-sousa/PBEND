@@ -1,3 +1,5 @@
+package org.example;
+
 public class GameConfig {
     private String playerName;
     private int levelDifficulty;

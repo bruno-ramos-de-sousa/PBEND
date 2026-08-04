@@ -4,11 +4,10 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/untitled" />
-        <option name="gradleJvm" value="graalvm-jdk-24" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/03_08/persistencia_JSON" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/untitled" />
+            <option value="$PROJECT_DIR$/03_08/persistencia_JSON" />
           </set>
         </option>
       </GradleProjectSettings>
