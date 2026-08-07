@@ -1,12 +1,12 @@
 package org.example;
 
-public class GameConfig {
+public class GameConfiguration {
     private String playerName;
     private int levelDifficulty;
     private boolean audioEnabled;
     private String screenResolution;
 
-    public GameConfig() {
+    public GameConfiguration() {
         this.playerName = "Player1";
         this.levelDifficulty = 2;
         audioEnabled = true;
@@ -42,11 +42,11 @@ public class GameConfig {
     public String toString() {
         String statusAudio = audioEnabled ? "Enabled" : "Disabled";
 
-        return "gameConfig{" +
-                "playerName='" + playerName + '\'' +
-                ", levelDifficulty=" + levelDifficulty +
-                ", audioEnabled=" + statusAudio +
-                ", screenResolution='" + screenResolution + '\'' +
-                '}';
+        return "gameConfig {\n" +
+                "playerName='" + playerName + "'" +
+                "\nlevelDifficulty=" + levelDifficulty +
+                "\naudioEnabled=" + statusAudio +
+                "\nscreenResolution='" + screenResolution + "'" +
+                "\n}";
     }
 }
