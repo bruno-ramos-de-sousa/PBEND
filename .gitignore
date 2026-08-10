@@ -5,6 +5,7 @@
 !**/src/test/**/build/
 .kotlin
 .json
+30_07/persistencia_parte_2/*.xml
 
 ### IntelliJ IDEA ###
 .idea/
