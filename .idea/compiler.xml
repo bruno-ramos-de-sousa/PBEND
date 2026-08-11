@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="demo.main" target="24" />
+      <module name="demo.test" target="24" />
+      <module name="org.example.persistencia_JSON.main" target="24" />
+      <module name="org.example.persistencia_JSON.test" target="24" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
