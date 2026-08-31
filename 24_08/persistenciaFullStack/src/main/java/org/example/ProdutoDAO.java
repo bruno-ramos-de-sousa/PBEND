@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 public class ProdutoDAO {
-    public List<Produto> listAvailable() throws SQLException {
+    public List<Produto> listarDisponiveis() throws SQLException {
         String sql = "SELECT id, nome, categoria, descricao, preco, emoji FROM produtos WHERE disponivel = TRUE ORDER BY categoria, nome";
         List<Produto> produtos = new ArrayList<>();
         
